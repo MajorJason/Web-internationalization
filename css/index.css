@@ -1,0 +1,176 @@
+body{
+    background-image:radial-gradient(50% 132%, #9993e7 47%, #827bdc 72%, #605acb 100%);
+    width:1366px;
+    height:885px;
+}
+a{
+    text-decoration: none;
+}
+.view{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 674px;
+    height: 384px;
+}
+.login{
+    position: relative;
+    background:url("../images/login.png") no-repeat;
+    width:320px;
+    height:384px;
+    float: right;
+}
+.login .name{
+    font-family:Microsoft YaHei;
+    font-size:24px;
+    color:#2c405a;
+    letter-spacing:0px;
+    line-height:22px;
+    text-align:left;
+    margin-top: 56px;
+    margin-left: 136px;
+}
+.login input{
+    display: block;
+    margin-top: 20px;
+    margin-left: 40px;
+    background:#ffffff;
+    border:1px solid #a8c6df;
+    border-radius:4px;
+    width:228px;
+    height:36px;
+    padding-left: 12px;
+}
+input:hover{
+    background-color: #ecf5fd;
+}
+input[type="text"]{
+    font-family:Microsoft YaHei;
+    font-size:14px;
+    color:#8dabc4;
+    /*letter-spacing:0px;*/
+    /*text-align:left;*/
+}
+input[type="button"]{
+    background:#4ece3d;
+    border:1px solid rgba(0,0,0,0.05);
+    border-radius:4px;
+    width:240px;
+    height:36px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-family:.PingFangSC-Regular,"Microsoft YaHei";
+}
+.line{
+    /*border:1px solid #e4e4e4;*/
+    width:238px;
+    /*height:-1px;*/
+    margin-left: 40px;
+    height:1px;
+    background: #e4e4e4;
+    overflow:hidden;
+}
+.login .forget{
+    font-family:.PingFangSC-Regular,"Microsoft YaHei";
+    font-size:13px;
+    color:#0093ee;
+    line-height:22px;
+    height: 22px;
+    width: 240px;
+    cursor: pointer;
+    margin:10px 0 0 40px;
+    float: left;
+}
+.forget a{
+    color: #2FA7F1;
+}
+select{
+    float: right;
+    margin-top: 5px;
+}
+.intro{
+    height: 384px;
+    width: 283px;
+    float: left;
+}
+.intro .title{
+    font-family:Microsoft YaHei;
+    font-size:36px;
+    color:#ffffff;
+    margin: 24px 0 92px;
+    /*letter-spacing:0px;*/
+    /*text-align:left;*/
+}
+.intro .eng{
+    font-family:HelveticaNeue;
+    font-size:30px;
+    color:#ffffff;
+    letter-spacing:0px;
+    /*text-align:left;*/
+    margin-bottom: 52px;
+}
+.intro .little{
+    font-family:HelveticaNeue;
+    font-size:14px;
+    color:#ffffff;
+    letter-spacing:0px;
+    line-height:30px;
+    text-align:left;
+}
+body .copyright{
+    font-family:Microsoft YaHei;
+    font-size:16px;
+    color:#ffffff;
+    margin: 0 auto;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,-300%);
+}
+.usermessage{
+    position: relative;
+}
+.usermessage .enter_psw{
+    font-family:Microsoft YaHei;
+    font-size:14px;
+    color:#798a9d;
+    letter-spacing:0px;
+    text-align:left;
+    position: absolute;
+    bottom: 10px;
+    left: 53px;
+    /*z-index: -999;*/
+}
+/*密码错误提示信息*/
+.error{
+    position: absolute;
+    right: 68px;
+    bottom: 198px;
+    display: none;
+}
+.error .psdErr{
+    font-family:Microsoft YaHei;
+    font-size:12px;
+    color:#ff151f;
+}
+.error .err{
+    height: 13px;
+    width: 13px;
+    display: block;
+    position: absolute;
+    top: 5px;
+    right: -20px;
+    background: url("../images/psdErr.png") no-repeat;
+}
+.right{
+    position: absolute;
+    height: 10px;
+    width: 13px;
+    top:113px;
+    right: 46px;
+    background:url("../images/loginRight.png") no-repeat;
+    display: none;
+}
+
